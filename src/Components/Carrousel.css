@@ -1,0 +1,25 @@
+/* Carrousel.css */
+.carousel {
+    max-width: 800px; /* Ajustez la largeur maximale selon vos besoins */
+    margin: auto;
+  }
+  
+  .carousel-item {
+    text-align: center;
+  }
+  
+  .carousel-item h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .carousel-item ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .carousel-item li {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
