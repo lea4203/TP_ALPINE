@@ -1,25 +1,35 @@
 /* Carrousel.css */
-.carousel {
-    max-width: 800px; /* Ajustez la largeur maximale selon vos besoins */
-    margin: auto;
+
+.carrousel-container {
+    width: 70%; /* Ajustez la largeur selon vos besoins */
+    margin: auto; /* Centrez le carrousel horizontalement */
   }
   
-  .carousel-item {
-    text-align: center;
-  }
-  
-  .carousel-item h2 {
-    font-size: 24px;
+  .color-buttons {
+    display: flex;
+    justify-content: space-around;
     margin-bottom: 10px;
   }
   
-  .carousel-item ul {
-    list-style: none;
-    padding: 0;
+  .color-buttons button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
   }
   
-  .carousel-item li {
-    font-size: 16px;
-    margin-bottom: 5px;
+  .color-thumbnail {
+    width: 30px; /* Ajustez la taille selon vos besoins */
+    height: auto;
   }
+  
+  .carrousel-image {
+    width: 100%; /* Remplacez w-50 par 100% pour que l'image occupe toute la largeur du conteneur */
+    height: auto;
+  }
+  
+  .carrousel-info {
+    text-align: center;
+  }
+  
+  /* Ajoutez d'autres styles nécessaires selon vos besoins */
   
